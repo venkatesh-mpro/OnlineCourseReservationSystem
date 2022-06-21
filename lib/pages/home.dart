@@ -57,39 +57,3 @@ class _HomePageState extends State<HomePage> {
   }
 }
 
-
-// Widget _buildBottomBar(BuildContext con) {
-//   return BottomNavigationBar(
-//     // selectedItemColor: Colors.green,
-//     // unselectedItemColor: Colors.black,
-//     type: BottomNavigationBarType.fixed,
-//     currentIndex: 2,
-//     onTap: (index) {},
-//     items: [
-//       BottomNavigationBarItem(
-//           icon: Icon(
-//             CartIcons.home,
-//             color: Colors.black,
-//           ),
-//           title: Text('   Store  ', style: TextStyle())),
-//       BottomNavigationBarItem(
-//           icon: Icon(
-//             CartIcons.cart,
-//           ),
-//           title: Text('My Cart', style: TextStyle())),
-//       BottomNavigationBarItem(
-//           icon: Icon(
-//             CartIcons.favourites,
-//           ),
-//           title: Text('Favourites', style: TextStyle())),
-//       BottomNavigationBarItem(
-//           icon: Icon(
-//             CartIcons.account,
-//           ),
-//           title: Text(
-//             'My Account',
-//             style: TextStyle(),
-//           ))
-//     ],
-//   );
-// }

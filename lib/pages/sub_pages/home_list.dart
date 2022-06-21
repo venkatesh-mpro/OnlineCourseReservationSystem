@@ -1,41 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:fluttertoast/fluttertoast.dart';
 class HomeList extends StatelessWidget {
   void python() {
     print('p');
-    Fluttertoast.showToast(
-        msg: "Python Course Enrolled",
-        toastLength: Toast.LENGTH_LONG,
-        gravity: ToastGravity.CENTER,
-        timeInSecForIosWeb: 1,
-        backgroundColor: Colors.red,
-        textColor: Colors.white,
-        fontSize: 16.0
-    );
   }
   void java() {
     print('j');
-    Fluttertoast.showToast(
-        msg: "Java Course Enrolled",
-        toastLength: Toast.LENGTH_LONG,
-        gravity: ToastGravity.CENTER,
-        timeInSecForIosWeb: 1,
-        backgroundColor: Colors.red,
-        textColor: Colors.white,
-        fontSize: 16.0
-    );
   }
   void dart() {
     print('d');
-    Fluttertoast.showToast(
-        msg: "Dart Course Enrolled",
-        toastLength: Toast.LENGTH_LONG,
-        gravity: ToastGravity.CENTER,
-        timeInSecForIosWeb: 1,
-        backgroundColor: Colors.red,
-        textColor: Colors.white,
-        fontSize: 16.0
-    );
   }
   
   @override
